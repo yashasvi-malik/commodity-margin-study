@@ -92,7 +92,7 @@ python analysis.py
 
 Charts are saved to `charts/`. Terminal output includes all regression tables.
 
-**Replace placeholder data before treating results as real:**
+
 Follow `data/data_entry_guide.md` — approximately 2–3 hours of manual entry.
 
 ---
@@ -150,15 +150,15 @@ The terminal output includes a decision-useful table like this
 (numbers below are from PLACEHOLDER data — replace before use):
 
 ```
-┌─────────────────────────────┬─────────┬─────────┬──────────────────────────────┐
-│ Firm                        │ Opt Lag │ Coef    │ Verdict                      │
-├─────────────────────────────┼─────────┼─────────┼──────────────────────────────┤
-│ Suprajit Engineering        │   1Q    │ -0.060* │ High exposure, fast hit      │
-│ Sundram Fasteners           │   2Q    │ -0.050* │ Moderate exposure            │
-│ Gabriel India               │   1Q    │ -0.048* │ Moderate exposure            │
-│ Endurance Technologies      │   1Q    │ -0.042  │ Moderate exposure            │
-└─────────────────────────────┴─────────┴─────────┴──────────────────────────────┘
+| Firm | Opt Lag | Coef | Verdict |
+|---|---|---|---|
+| Endurance Technologies | 2Q | −0.0837* | Most exposed — fast hit |
+| Suprajit Engineering | 4Q | −0.0706* | High exposure — slow hit |
+| Sundram Fasteners | 3Q | −0.0462 | Lower exposure |
+| Gabriel India | 2Q | +0.0213 | Not sensitive |
+
 * significant at 10%
+
 ```
 
 This is the **actionable conclusion** for an equity analyst:
