@@ -150,6 +150,7 @@ The terminal output includes a decision-useful table like this
 (numbers below are from PLACEHOLDER data — replace before use):
 
 ```
+
 | Firm | Opt Lag | Coef | Verdict |
 |---|---|---|---|
 | Endurance Technologies | 2Q | −0.0837* | Most exposed — fast hit |
